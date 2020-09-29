@@ -3,6 +3,6 @@
 dist: bionic
 
 script:
-  - git clone -b api-dump-to-jsonschema https://github.com/phlax/envoy
+  - git clone -b api-dump-to-jsonschema--testing https://github.com/phlax/envoy
   - cd envoy
   - ./ci/run_envoy_docker.sh 'ci/do_ci.sh schema'
